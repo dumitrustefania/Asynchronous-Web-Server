@@ -58,19 +58,6 @@ Pentru a construi programul, trebuie rulata comanda 'make' din folderul 'util'.
 Pentru a testa biblioteca folosind testele prezente in fisierul '_test', trebuie
 rulat 'make -f Makefile.checker' din folderul 'checker-lin'.
 
-## Feedback
-
-Tema este 95% cod din sample-urile epoll_echo_server.c, http_reply_once.c si
-test_get_request_path.c. M-am inspirat si din fisierul epoll_server.c din 
-arhiva vechiului curs 11. Am combinat toate aceste fisiere in aws.c, adaugand
-si folosirea sendfile. Nu am implementat partea cu fisiere dinamice. Desi am
-incercat, m-am incurcat prea tare asa ca am renuntat si am ramas doar cu cele
-statice. 
-
-Mi se pare ca tema are o legatura mult prea minimala cu ce am facut la laborator.
-Uitandu-ma la laboratorul 11 din anii trecuti, foarte multe exemple si exercitii
-au legatura si ajuta mult la tema aceasta.
-
 ## Resurse
 * https://ocw.cs.pub.ro/courses/so/teme/tema-5
 * https://ocw.cs.pub.ro/courses/so/cursuri/curs-10
